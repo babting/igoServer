@@ -1,6 +1,8 @@
 package com.babting.igo.igoserver.model;
 
-public class ApiResult {
+import java.io.Serializable;
+
+public class ApiResult implements Serializable {
 	public static final String STATUS_SUCCESS = "0";
 	public static final String STATUS_NETWORK_UNAVAILABLE = "1";
 	public static final String API_ERROR = "2";
