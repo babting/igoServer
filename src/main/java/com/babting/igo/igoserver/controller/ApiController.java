@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+import org.codehaus.jackson.JsonGenerationException;
+import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,6 +19,8 @@ import com.babting.igo.igoserver.model.GetLocationListApiResult;
 import com.babting.igo.igoserver.model.LocationInfoVO;
 import com.babting.igo.igoserver.model.RegistLocationApiResult;
 import com.babting.igo.igoserver.model.jdo.LocationInfo;
+import com.babting.igo.igoserver.model.jdo.LocationPhoto;
+import com.babting.igo.igoserver.model.jdo.PhotoInfo;
 
 @Controller
 @RequestMapping(value = "api")
