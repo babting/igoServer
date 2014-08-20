@@ -9,7 +9,6 @@
 <head>
     <link type="text/css" rel="stylesheet" href="/stylesheets/main.css"/>
 </head>
-
 <body>
 <c:forEach var="locInfo" items="${locInfoList}" varStatus="rstatus">
 ${locInfo.placeName}
