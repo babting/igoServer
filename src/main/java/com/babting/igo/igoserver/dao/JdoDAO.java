@@ -10,6 +10,7 @@ import org.springframework.orm.jdo.LocalPersistenceManagerFactoryBean;
 import org.springframework.stereotype.Repository;
 
 import com.babting.igo.igoserver.model.jdo.LocationInfo;
+import com.babting.igo.igoserver.model.jdo.LocationPhoto;
 
 @Repository
 public class JdoDAO extends AbstractJdoDAO {
